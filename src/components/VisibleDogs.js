@@ -7,8 +7,8 @@ const VisibleDogs = (props) => {
         <div>
 
 
-            <h1>{ props.dog.name }</h1>
-            {/* put breed's purpose in p tag */ }
+            <h1>Breed: { props.name }</h1>
+            <p>Purpose: { props.purpose }</p>
 
             {/* put breed's origin in p tag */ }
 
